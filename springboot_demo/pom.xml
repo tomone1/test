@@ -59,7 +59,9 @@
                 </configuration>
                 <executions>
                     <execution>
-                        <goals>repackage</goals>
+                        <goals>
+                            <goal>repackage</goal>
+                        </goals>
                     </execution>
                 </executions>
             </plugin>
